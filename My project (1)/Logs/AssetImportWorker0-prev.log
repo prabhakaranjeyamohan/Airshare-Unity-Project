@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/PrabhaJ/My project (1)
+C:/Users/PrabhaJ/Desktop/Unity Github/Airshare-Unity-Project/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64605
-Successfully changed project path to: C:/Users/PrabhaJ/My project (1)
-C:/Users/PrabhaJ/My project (1)
+57167
+Successfully changed project path to: C:/Users/PrabhaJ/Desktop/Unity Github/Airshare-Unity-Project/My project (1)
+C:/Users/PrabhaJ/Desktop/Unity Github/Airshare-Unity-Project/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/PrabhaJ/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11832] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1499334280 [EditorId] 1499334280 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLGSFIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11492] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 4210199898 [EditorId] 4210199898 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLGSFIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11832] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1499334280 [EditorId] 1499334280 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLGSFIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11492] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 4210199898 [EditorId] 4210199898 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLGSFIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 140.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 244.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PrabhaJ/My project (1)/Assets
+[Subsystems] Discovering subsystems at path C:/Users/PrabhaJ/Desktop/Unity Github/Airshare-Unity-Project/My project (1)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011692 seconds.
+Registered in 0.020524 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 137.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 199.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1173ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1726ms)
+		BeginReloadAssembly (282ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (854ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (277ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (470ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (669ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
+				RefreshPlugins (199ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009066 seconds.
+Registered in 0.040694 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.816 seconds
+- Completed reload, in  2.756 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1817ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (2758ms)
+		BeginReloadAssembly (308ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1437ms)
-			LoadAssemblies (171ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2161ms)
+			LoadAssemblies (374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (480ms)
+			SetupTypeCache (729ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (646ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (923ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (434ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.6 KB). Loaded Objects now: 3863.
-Memory consumption went from 128.7 MB to 128.6 MB.
-Total: 5.757400 ms (FindLiveObjects: 0.440900 ms CreateObjectMapping: 0.493700 ms MarkObjects: 4.666100 ms  DeleteObjects: 0.155200 ms)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3863.
+Memory consumption went from 129.7 MB to 129.6 MB.
+Total: 5.854800 ms (FindLiveObjects: 0.858100 ms CreateObjectMapping: 0.287400 ms MarkObjects: 4.473100 ms  DeleteObjects: 0.234200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,181 +166,1614 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14651.444488 seconds.
-  path: Assets/CFD Suffield - 1 _x3_y2.jpg
-  artifactKey: Guid(60abea303205b10409409f606e5dcc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y2.jpg using Guid(60abea303205b10409409f606e5dcc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843a1fef2db35c0faf9a70ade84048bc') in 0.298377 seconds 
+  Time since last request: 53011.601793 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x3_y0.asset
+  artifactKey: Guid(82af639af0b28164daabb3031cd01c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x3_y0.asset using Guid(82af639af0b28164daabb3031cd01c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b801ba07ba774840aa418faa0df96e8') in 0.307932 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y1.jpg
-  artifactKey: Guid(52491e2af4f12a549980929a85ee9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y1.jpg using Guid(52491e2af4f12a549980929a85ee9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bf559ca6a9186f781b8a536f220504') in 0.062441 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/WorldComposer/Buttons/button_globe.png
+  artifactKey: Guid(c54d4fbbd1945d64291a961b49e1b459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_globe.png using Guid(c54d4fbbd1945d64291a961b49e1b459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f2841c451ba054162e638e1015fa0fc') in 0.660513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y2.jpg
-  artifactKey: Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y2.jpg using Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14245b1c5791fb1b5843e0a4e886fe8') in 0.059421 seconds 
+  Time since last request: 0.000327 seconds.
+  path: Assets/CFD Suffield - 1 _x0_y2.jpg
+  artifactKey: Guid(67aaf895f4e78f6478509407276dccc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x0_y2.jpg using Guid(67aaf895f4e78f6478509407276dccc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f4c22c2fc552cb511a0a6fe5b58c62c') in 0.076640 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/CFD Suffield - 1 _x4_y2.jpg
-  artifactKey: Guid(5d7fbe43d06a003488583b230082f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y2.jpg using Guid(5d7fbe43d06a003488583b230082f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bf3e1538d523e0a2a3eebdcc128850') in 0.056606 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/WorldComposer/Buttons/button_reset.png
+  artifactKey: Guid(2402d57cc399c2c4490e3da04cac12fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_reset.png using Guid(2402d57cc399c2c4490e3da04cac12fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e52ef1e8a70edf0e86a745113593db98') in 0.074450 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y0.jpg
-  artifactKey: Guid(6a69c3733d075ea4e874dec3726eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y0.jpg using Guid(6a69c3733d075ea4e874dec3726eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c217d8a7c2b837728334ba944172eeae') in 0.045318 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x2_y2.asset
+  artifactKey: Guid(10a9d5076f8d5844bb1c80c3ccebfb09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x2_y2.asset using Guid(10a9d5076f8d5844bb1c80c3ccebfb09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2af9f34190b491e2c3b51faef9ee61') in 0.049046 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/CFD Suffield - 1 _x1_y0.jpg
-  artifactKey: Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y0.jpg using Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e23adfaa5b5019342d7253cb65a7d88') in 0.060645 seconds 
+  Time since last request: 0.000079 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_top.png
+  artifactKey: Guid(b6995c21020e92449aeef96e096d49e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_top.png using Guid(b6995c21020e92449aeef96e096d49e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1afd1837a6f3f6db85ad6ac46f317857') in 0.055019 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CFD Suffield - 1 _x1_y1.jpg
-  artifactKey: Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y1.jpg using Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc56f05601e8120cc99756f50ea8b3e') in 0.053942 seconds 
+  Time since last request: 0.000071 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _0_TerrainLayer_0.asset
+  artifactKey: Guid(9c59db5a31673b543bffcd743f0f2f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _0_TerrainLayer_0.asset using Guid(9c59db5a31673b543bffcd743f0f2f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d148d6cd82e3413d7a3debfa5c97b6') in 0.074677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y0.jpg
-  artifactKey: Guid(5359be3b2c599e34991fce1635427def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y0.jpg using Guid(5359be3b2c599e34991fce1635427def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c597887d32658b2c05c22d4d13e776e') in 0.055270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CFD Suffield - 1 _x4_y0.jpg
-  artifactKey: Guid(9eb5efdf835749d44b6456c3268dad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y0.jpg using Guid(9eb5efdf835749d44b6456c3268dad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d3c8b2c956f1e3d760e0c5a2aa3442') in 0.058314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/CFD Suffield - 1 _x1_y2.jpg
-  artifactKey: Guid(ee88930823f6691459049399b203df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y2.jpg using Guid(ee88930823f6691459049399b203df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e7ee6cc8d167d73eeafdd0ce5958e4') in 0.067270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/CFD Suffield - 1 _x3_y1.jpg
-  artifactKey: Guid(e759625ae597b4d468a43b91d2966b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y1.jpg using Guid(e759625ae597b4d468a43b91d2966b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998a736e1c4434b930f7c0821226665f') in 0.053313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y1.jpg
-  artifactKey: Guid(914e910ebb7714b419221a21b358bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y1.jpg using Guid(914e910ebb7714b419221a21b358bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819217367af6ffa3041838b956e3d204') in 0.058140 seconds 
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _3_TerrainLayer_0.asset
+  artifactKey: Guid(813c997766e149d4787885c01eecb898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _3_TerrainLayer_0.asset using Guid(813c997766e149d4787885c01eecb898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72670619d75962dd7db1b1ec5a70f950') in 0.051972 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/CFD Suffield - 1 _x4_y1.jpg
-  artifactKey: Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y1.jpg using Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0cc321ecf2089572ebd54b1a36b5bd') in 0.054297 seconds 
+  path: Assets/CFD Suffield - 1 .Raw
+  artifactKey: Guid(6865d6fc32a51df408440481cbd64282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 .Raw using Guid(6865d6fc32a51df408440481cbd64282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8897b1bf7ad8e7c1c3d705586e24a9a3') in 0.042236 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y2.jpg
-  artifactKey: Guid(67aaf895f4e78f6478509407276dccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y2.jpg using Guid(67aaf895f4e78f6478509407276dccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d7754677411e8479b009e8b4234d0b') in 0.054253 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/CFD Suffield - 1 _x3_y0.jpg
+  artifactKey: Guid(91f05c0751274254e81c9784c72b61eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x3_y0.jpg using Guid(91f05c0751274254e81c9784c72b61eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '055bd9fb48477de43e87845a56bc6e12') in 0.046585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x1_y2.asset
+  artifactKey: Guid(092e7b8ef844b0e4abd87281a709c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x1_y2.asset using Guid(092e7b8ef844b0e4abd87281a709c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29dc3d9fbe0e0c41105a5acb62a13eb1') in 0.048265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_right_bottom.png
+  artifactKey: Guid(c48ba1274353b564fb305b7cd332315e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_right_bottom.png using Guid(c48ba1274353b564fb305b7cd332315e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e849c47762ea1fefd5c3bcf0f13dae70') in 0.059023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _4_TerrainLayer_0.asset
+  artifactKey: Guid(cb3c067a48af5bd40982b0c6745e88c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _4_TerrainLayer_0.asset using Guid(cb3c067a48af5bd40982b0c6745e88c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0e14d7bee4e6d2fd64197fba3f19dca') in 0.044160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/WorldComposer/Buttons/button_search.png
+  artifactKey: Guid(bcf5270698cc5894f84846e3fc44f2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_search.png using Guid(bcf5270698cc5894f84846e3fc44f2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4491700bdcdf667465d45b6f2615079') in 0.062072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_left_bottom.png
+  artifactKey: Guid(6fc29ea3e016ab847a4ce5b77ff9b66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_left_bottom.png using Guid(6fc29ea3e016ab847a4ce5b77ff9b66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '329817539d5891e830f6a4a3d745d504') in 0.088934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WorldComposer/Buttons/button_script.png
+  artifactKey: Guid(2e4d57be77a5bed47b39ce3e89254336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_script.png using Guid(2e4d57be77a5bed47b39ce3e89254336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36802f3000f930a4ca7baea80fcd29c2') in 0.131109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/WorldComposer/Scripts/Draw.cs
+  artifactKey: Guid(b14ab521b0aabce49ba091ba4fd3386d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/Draw.cs using Guid(b14ab521b0aabce49ba091ba4fd3386d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea49f6f8890c83d815ca90303191c261') in 0.071707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x2_y1.asset
+  artifactKey: Guid(72e749e54329b924dbb904d6c105d671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x2_y1.asset using Guid(72e749e54329b924dbb904d6c105d671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a906db55c8654a3abb98f8697d0415a7') in 0.057152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WorldComposer/Buttons/button_global.png
+  artifactKey: Guid(991584c69f660354f8131ba330e53d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_global.png using Guid(991584c69f660354f8131ba330e53d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc059d59063c1a815f2587a63e16388') in 0.058540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WorldComposer/WorldComposer Release Notes.txt
+  artifactKey: Guid(08f23513142576a4680d8cdf2bd0676b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/WorldComposer Release Notes.txt using Guid(08f23513142576a4680d8cdf2bd0676b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '337d106b0b293388e0c067969f03618c') in 0.050874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/WorldComposer/Buttons/button_grass.png
+  artifactKey: Guid(045f16098c5b0784189a46a87b14897b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_grass.png using Guid(045f16098c5b0784189a46a87b14897b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6a05d5253e01ea91ba228b0cc3e8e61') in 0.068362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WorldComposer/Scripts/global_settings_tc.cs
+  artifactKey: Guid(d7ee4c9c2c6905140b12607156e51367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/global_settings_tc.cs using Guid(d7ee4c9c2c6905140b12607156e51367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76f6f8268b8a38f7fe4b4d50053b73f6') in 0.035093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _7_TerrainLayer_0.asset
+  artifactKey: Guid(2d206b2da981b7c4abb792ea80df2054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _7_TerrainLayer_0.asset using Guid(2d206b2da981b7c4abb792ea80df2054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60f3c84022ca4114527b3795ca547ea1') in 0.046665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrains/region1_x1_y1.asset
+  artifactKey: Guid(824da05abbe39264eb4c5cebc4479996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_x1_y1.asset using Guid(824da05abbe39264eb4c5cebc4479996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '458fc0ca0a6d00b892ce9d9c505f7ff4') in 0.050504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _14_TerrainLayer_0.asset
+  artifactKey: Guid(202c0202723660c40aed025be451b5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _14_TerrainLayer_0.asset using Guid(202c0202723660c40aed025be451b5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5f3db884467a1a35d46323546a61187') in 0.053843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/WorldComposer/Buttons/button_rtp.png
+  artifactKey: Guid(40f5ef20595886f45a8726f159e33b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_rtp.png using Guid(40f5ef20595886f45a8726f159e33b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68b6f67fd8d04532e3841e34bc73817f') in 0.067015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _10_TerrainLayer_0.asset
+  artifactKey: Guid(d21a6c0dc8d58bc479f199ded401bc54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _10_TerrainLayer_0.asset using Guid(d21a6c0dc8d58bc479f199ded401bc54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1239719399d8e5910709e8144790a135') in 0.045853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_center.png
+  artifactKey: Guid(1fb0cc516d6414048a50939605803cff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_center.png using Guid(1fb0cc516d6414048a50939605803cff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b39c6aff99fa5273aa467eb9a1eae83') in 0.059408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WorldComposer/Buttons/button_terrain.png
+  artifactKey: Guid(92b4ae8aeda022d4b802a7a13d8f1d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_terrain.png using Guid(92b4ae8aeda022d4b802a7a13d8f1d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc142cf4ba1717689d9ba70efd002205') in 0.083735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/WorldComposer/Scripts/WebRequest.cs
+  artifactKey: Guid(6a590e329550d42488b6fa2bd718c2e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/WebRequest.cs using Guid(6a590e329550d42488b6fa2bd718c2e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef26c1797ffa1abc7287a35904cf9a00') in 0.078413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/WorldComposer/Templates/content3.dat
+  artifactKey: Guid(ac614ad73a7b4924185a863af7b35a5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/content3.dat using Guid(ac614ad73a7b4924185a863af7b35a5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd7a2b15b9ae1cd1513e0ec2475f4f9c') in 0.043935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WorldComposer/Buttons/button_localArea.png
+  artifactKey: Guid(007dff1d01128564cb6bca82a6e405dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_localArea.png using Guid(007dff1d01128564cb6bca82a6e405dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80ac4f659f1cb2e8862658a29e8d6015') in 0.082421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WorldComposer/Buttons/button_tree.png
+  artifactKey: Guid(f6e07ab0069524d408076907b07289fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_tree.png using Guid(f6e07ab0069524d408076907b07289fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6074aa675b89444f9b6968feb4433260') in 0.086985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CFD Suffield - 1 _x0_y0.jpg
+  artifactKey: Guid(5359be3b2c599e34991fce1635427def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x0_y0.jpg using Guid(5359be3b2c599e34991fce1635427def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c622e91aca67a3b075a90500ec9726') in 0.063136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _5_TerrainLayer_0.asset
+  artifactKey: Guid(2aeaaf3c356850141977b2f02bd9c0ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _5_TerrainLayer_0.asset using Guid(2aeaaf3c356850141977b2f02bd9c0ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7e6e3d7ba1944deba60fae32f4bbc8a') in 0.311489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Cliff_DISP.png
+  artifactKey: Guid(672eb1c21181b944797731cd17746234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Cliff_DISP.png using Guid(672eb1c21181b944797731cd17746234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60fc89a66b3a7e047c1d4ab07ebbaec7') in 0.123376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/WorldComposer/Templates/Textures/black.png
+  artifactKey: Guid(a2f5c477d56544249bf948a5c1eb9284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/black.png using Guid(a2f5c477d56544249bf948a5c1eb9284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01dc48dc40e0f26be9a5ccab12006400') in 0.061301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Cliff_NRM.png
+  artifactKey: Guid(ff016ee24b56ed14bb3aea991c358979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Cliff_NRM.png using Guid(ff016ee24b56ed14bb3aea991c358979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0696c08e6236503e558efa01d7125f41') in 0.208994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Dirt_DISP.png
+  artifactKey: Guid(7e4f2ed8a6553ec4bbefda62268679a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Dirt_DISP.png using Guid(7e4f2ed8a6553ec4bbefda62268679a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71fb56b64117b912a8ac75778bfd98d9') in 0.320576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Dirt.psd
+  artifactKey: Guid(e70b28ee74279104691f23ac78f8634a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Dirt.psd using Guid(e70b28ee74279104691f23ac78f8634a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1de8d39ff25786b1bd0ed59720fe472f') in 0.097182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _8_TerrainLayer_0.asset
+  artifactKey: Guid(3105d46378366884f8d08ee5dae46a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _8_TerrainLayer_0.asset using Guid(3105d46378366884f8d08ee5dae46a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f5fea4ae279d3197b161471d625fcf') in 0.054182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/WorldComposer/Buttons/palette.png
+  artifactKey: Guid(260faff178b1f134b8c23efdcf51292c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/palette.png using Guid(260faff178b1f134b8c23efdcf51292c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd19d49dac476adea31a58dc281c8f351') in 0.065874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72e6927f14fa7c50fa8cf9d61ea7d339') in 0.069079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/WorldComposer/Editor/FixCultureEditor.cs
+  artifactKey: Guid(574bc7e88e4bd4b43a331a530aeaad17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Editor/FixCultureEditor.cs using Guid(574bc7e88e4bd4b43a331a530aeaad17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef467bba55e9554a315375b8dbb2aace') in 0.059147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x2_y0.asset
+  artifactKey: Guid(836c41623e53a954eb87fdeb64eb0b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x2_y0.asset using Guid(836c41623e53a954eb87fdeb64eb0b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '928b803644997492afa462ea42631e46') in 0.039796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x3_y1.asset
+  artifactKey: Guid(bf9383ea54fbbed47a0ea39b3d8ead25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x3_y1.asset using Guid(bf9383ea54fbbed47a0ea39b3d8ead25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5bb7bf1233bab7149f8c12ccf38b95d') in 0.047864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002674 seconds.
+  path: Assets/WorldComposer/Buttons/button_folder.png
+  artifactKey: Guid(ab34bf48b8f6fba41ad25cd18467c006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_folder.png using Guid(ab34bf48b8f6fba41ad25cd18467c006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ae714570dca6aa24d36852e26332d7') in 0.066060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Terrains/region1_3_TerrainLayer_0.asset
+  artifactKey: Guid(9cdcfdbe5d1472142af1255954cc4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_3_TerrainLayer_0.asset using Guid(9cdcfdbe5d1472142af1255954cc4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3858a0e70746543d4ff9929221a83ce6') in 0.062397 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/CFD Suffield - 1 _x3_y0.jpg
-  artifactKey: Guid(91f05c0751274254e81c9784c72b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y0.jpg using Guid(91f05c0751274254e81c9784c72b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3c7bc970e5a0e4714ddc60f736ce8f') in 0.073046 seconds 
+  path: Assets/WorldComposer/Templates/Textures/Forest3.psd
+  artifactKey: Guid(3878b7ec69642a54db5a9a51505c36e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest3.psd using Guid(3878b7ec69642a54db5a9a51505c36e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '875bdcdba1e502fc54b9cceed37088a2') in 0.082892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.497821 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y0.jpg
-  artifactKey: Guid(5359be3b2c599e34991fce1635427def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y0.jpg using Guid(5359be3b2c599e34991fce1635427def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4beb148e38843fdaf9ab7385154d54') in 0.056523 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/WorldComposer/Buttons/button_heightmap.png
+  artifactKey: Guid(8f12d1a7820e2b148a04605ca762a2c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_heightmap.png using Guid(8f12d1a7820e2b148a04605ca762a2c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67f80b32a53f544e42fd8be4c464a134') in 0.050659 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.384499 seconds.
-  path: Assets/CFD Suffield - 1 _x1_y0.jpg
-  artifactKey: Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y0.jpg using Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c02da3b285b14b1837c1b7c8a13b6f2') in 0.055269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.384818 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y0.jpg
-  artifactKey: Guid(6a69c3733d075ea4e874dec3726eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y0.jpg using Guid(6a69c3733d075ea4e874dec3726eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4095917725add2e3a205bf7be1fc35') in 0.049443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.395026 seconds.
-  path: Assets/CFD Suffield - 1 _x3_y0.jpg
-  artifactKey: Guid(91f05c0751274254e81c9784c72b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y0.jpg using Guid(91f05c0751274254e81c9784c72b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d1095f3134ca9237858e22acfa3428') in 0.045312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.407836 seconds.
-  path: Assets/CFD Suffield - 1 _x4_y0.jpg
-  artifactKey: Guid(9eb5efdf835749d44b6456c3268dad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y0.jpg using Guid(9eb5efdf835749d44b6456c3268dad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8726968f4c6641ee209263772c558f') in 0.050717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.384508 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y1.jpg
-  artifactKey: Guid(52491e2af4f12a549980929a85ee9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y1.jpg using Guid(52491e2af4f12a549980929a85ee9866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ffdb5e37e12eb64c8cc8b84a01d588') in 0.030237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.393326 seconds.
-  path: Assets/CFD Suffield - 1 _x1_y1.jpg
-  artifactKey: Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y1.jpg using Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1835bd4c7236296d2a586822bc28da03') in 0.042601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.402085 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y1.jpg
-  artifactKey: Guid(914e910ebb7714b419221a21b358bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y1.jpg using Guid(914e910ebb7714b419221a21b358bfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a8393655d3628e5610284241753fe4') in 0.051042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.388635 seconds.
-  path: Assets/CFD Suffield - 1 _x3_y1.jpg
-  artifactKey: Guid(e759625ae597b4d468a43b91d2966b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y1.jpg using Guid(e759625ae597b4d468a43b91d2966b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec9b979f9f2c94e25e9ed0eb7730c55') in 0.032173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.401607 seconds.
-  path: Assets/CFD Suffield - 1 _x4_y1.jpg
-  artifactKey: Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y1.jpg using Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f12bfc580da4b2a536ad89e1392c78') in 0.030134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.386461 seconds.
-  path: Assets/CFD Suffield - 1 _x0_y2.jpg
-  artifactKey: Guid(67aaf895f4e78f6478509407276dccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x0_y2.jpg using Guid(67aaf895f4e78f6478509407276dccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d056507c173c99437bdd6dedbdd548') in 0.031033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.393165 seconds.
+  Time since last request: 0.000030 seconds.
   path: Assets/CFD Suffield - 1 _x1_y2.jpg
-  artifactKey: Guid(ee88930823f6691459049399b203df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x1_y2.jpg using Guid(ee88930823f6691459049399b203df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284a76216a4d11dc33c91937d73baaaf') in 0.056458 seconds 
+  artifactKey: Guid(ee88930823f6691459049399b203df82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x1_y2.jpg using Guid(ee88930823f6691459049399b203df82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3642a42e63a0db4b4f5ae3090dd0dbd1') in 0.041476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.382814 seconds.
-  path: Assets/CFD Suffield - 1 _x2_y2.jpg
-  artifactKey: Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x2_y2.jpg using Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c710c6c1ed33f4a041d5ba4aa17c6532') in 0.047308 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_left_top.png
+  artifactKey: Guid(c6c9593fb83a6064ababaee9d94e644b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_left_top.png using Guid(c6c9593fb83a6064ababaee9d94e644b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de2a2f730d2e885ba41e414afd3075fe') in 0.038576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.375805 seconds.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WorldComposer/Buttons/button_region.png
+  artifactKey: Guid(012ab3d0b396920408f145bb6475161d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_region.png using Guid(012ab3d0b396920408f145bb6475161d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45a4c11350bdbbdb79bd135c35d75cd6') in 0.037639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrains/region1_0_TerrainLayer_0.asset
+  artifactKey: Guid(76d1317c65d00ee488e63c232f2993b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_0_TerrainLayer_0.asset using Guid(76d1317c65d00ee488e63c232f2993b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '776be55a62751e98c995690e1fc131d8') in 0.042195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WorldComposer/Scripts/Mathw.cs
+  artifactKey: Guid(82478801b7b65be4e89392907feaea8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/Mathw.cs using Guid(82478801b7b65be4e89392907feaea8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91c998ef6914a6c3ba1ec8066ac542eb') in 0.019158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_right.png
+  artifactKey: Guid(17ea2a1411e961e4c88735d2bdef174e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_right.png using Guid(17ea2a1411e961e4c88735d2bdef174e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76c39f5496bc466fd278d0b69764356d') in 0.172418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest2_NRM.png
+  artifactKey: Guid(1359dcede159d1d4eb89da43da8c0c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest2_NRM.png using Guid(1359dcede159d1d4eb89da43da8c0c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91249749ca569c374b804ff63595e6a6') in 0.036704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WorldComposer/Buttons/SliderBaseLeft.psd
+  artifactKey: Guid(a4146392883725d4883eab81f9561e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderBaseLeft.psd using Guid(a4146392883725d4883eab81f9561e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4e4978c8594a73f7cf4155445f7d5f3') in 0.035006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x0_y0.asset
+  artifactKey: Guid(c129cb2f5fc3ed748a35f5feabb204d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x0_y0.asset using Guid(c129cb2f5fc3ed748a35f5feabb204d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d330cc8c8a391fd875449bedabef891') in 0.021886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WorldComposer/Templates/GlobalSettings2.asset
+  artifactKey: Guid(a05e46fcc28fabe40b73526c3d548557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/GlobalSettings2.asset using Guid(a05e46fcc28fabe40b73526c3d548557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef7ef5979bdfe1f50747a0a13e5277d7') in 0.129070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldComposer/Buttons/button_open.png
+  artifactKey: Guid(1015ff127f975a3418f42a70105857a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_open.png using Guid(1015ff127f975a3418f42a70105857a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49bc334e45793ab4386e3251fa4c2246') in 0.042181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/WorldComposer/Buttons/button_slice.png
+  artifactKey: Guid(e4100dd5c670b664fbc3461af2e4db3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_slice.png using Guid(e4100dd5c670b664fbc3461af2e4db3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '763f06c4ab3623b4f5b301658edb59ed') in 0.036323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrains/region1_x0_y0.asset
+  artifactKey: Guid(aa5ebc599b970654ba1837ba825cdf47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_x0_y0.asset using Guid(aa5ebc599b970654ba1837ba825cdf47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dcd4594d3a3c2f0ac08f409ee168564') in 0.028942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CFD Suffield - 1 _x2_y0.jpg
+  artifactKey: Guid(6a69c3733d075ea4e874dec3726eee53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x2_y0.jpg using Guid(6a69c3733d075ea4e874dec3726eee53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd411071874a46b3dcf1410c2c76a70e') in 0.039480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldComposer/Buttons/button_savedisk.png
+  artifactKey: Guid(e9f57b41003e76c45a605948430b1a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_savedisk.png using Guid(e9f57b41003e76c45a605948430b1a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d6afd91b40ac687bdd919de2783e1ff') in 0.040053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CFD Suffield - 1 _N.Raw
+  artifactKey: Guid(aaccf91c9a3e62d419e7627d0f4967ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _N.Raw using Guid(aaccf91c9a3e62d419e7627d0f4967ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '054a1ee0be17e251f26cf089b890c90a') in 0.018345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_left.png
+  artifactKey: Guid(7b6d7daabfb89eb4e9d8066281784b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_left.png using Guid(7b6d7daabfb89eb4e9d8066281784b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '525e6a082ac64b7a78b704708d849c3f') in 0.043265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest1.psd
+  artifactKey: Guid(640108c594f063c4fb25611705875486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest1.psd using Guid(640108c594f063c4fb25611705875486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d16c7f4adc28d3c570b74afcc002ad3') in 0.043115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _11_TerrainLayer_0.asset
+  artifactKey: Guid(19eb332e4b3314a47bc492f9dbf12269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _11_TerrainLayer_0.asset using Guid(19eb332e4b3314a47bc492f9dbf12269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '183d0c9f54aca48578e6b0dd1f088283') in 0.024678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WorldComposer/Buttons/button_size.png
+  artifactKey: Guid(8fe0f13a2e6a58e47be6b5926dc5c39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_size.png using Guid(8fe0f13a2e6a58e47be6b5926dc5c39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea6a3cd86e653cce6eef8d40905b4a9f') in 0.036821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Cliff.psd
+  artifactKey: Guid(7cae8c7068dffd1498e07e7c46e5c1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Cliff.psd using Guid(7cae8c7068dffd1498e07e7c46e5c1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26bd37b494b371429d4ee9544c2f71f3') in 0.042302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x1_y1.asset
+  artifactKey: Guid(69187768486908f41818d7c45c1029e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x1_y1.asset using Guid(69187768486908f41818d7c45c1029e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37681d86eeecebad4f2c500a64f440ed') in 0.022580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
   path: Assets/CFD Suffield - 1 _x3_y2.jpg
-  artifactKey: Guid(60abea303205b10409409f606e5dcc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x3_y2.jpg using Guid(60abea303205b10409409f606e5dcc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498ab0aef5e1a11e573b937fa3262770') in 0.034832 seconds 
+  artifactKey: Guid(60abea303205b10409409f606e5dcc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x3_y2.jpg using Guid(60abea303205b10409409f606e5dcc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19eacfdc4ee85901562a5ef1ba06335f') in 0.042748 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.375015 seconds.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _12_TerrainLayer_0.asset
+  artifactKey: Guid(f28189225a808d44a85c2ab881d3fa22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _12_TerrainLayer_0.asset using Guid(f28189225a808d44a85c2ab881d3fa22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43dd6b098b09437ad41f58fd85d1dbf9') in 0.032504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CFD Suffield - 1 _x0_y1.jpg
+  artifactKey: Guid(52491e2af4f12a549980929a85ee9866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x0_y1.jpg using Guid(52491e2af4f12a549980929a85ee9866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76c77c44e11c5ec15127a8c02a93b8c2') in 0.035038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/WorldComposer/Scripts/Classes.cs
+  artifactKey: Guid(85a4520608324b04682979cbc895ce83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/Classes.cs using Guid(85a4520608324b04682979cbc895ce83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f6dead843664ccb0d085e1d9cd9d1d4') in 0.015368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x4_y1.asset
+  artifactKey: Guid(4932fc563ed920148b0b66c6108af71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x4_y1.asset using Guid(4932fc563ed920148b0b66c6108af71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6237d5240cea4700e5848c32ce6d73c9') in 0.024119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldComposer/Scripts/RTPMethods.cs
+  artifactKey: Guid(ea2149ce10788c842b6bb05ef6851220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/RTPMethods.cs using Guid(ea2149ce10788c842b6bb05ef6851220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3d74c6a7157105d6692440ca13fbf8') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/WorldComposer/Buttons/button_convert.png
+  artifactKey: Guid(5fb8092f3417b104490c8b991660d553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_convert.png using Guid(5fb8092f3417b104490c8b991660d553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c68395e2b3b598d6d89e3af4cb4622a2') in 0.075567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest1_NRM.png
+  artifactKey: Guid(57cc415a5ec956c45b9c420be90f8ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest1_NRM.png using Guid(57cc415a5ec956c45b9c420be90f8ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44d979be831382e93662d9052142652f') in 0.077641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/WorldComposer/Templates/Drawing_tc.mat
+  artifactKey: Guid(484abefe85e9dec4abe1a566af4c6e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Drawing_tc.mat using Guid(484abefe85e9dec4abe1a566af4c6e11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f59a2e27ddf75163d977006b1dd3faf1') in 0.248076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/WorldComposer/Templates/GlobalSettings.asset
+  artifactKey: Guid(6a1ddd7baf48f704d9580de6d0c5269f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/GlobalSettings.asset using Guid(6a1ddd7baf48f704d9580de6d0c5269f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3682588fed658802199b3be0ed2d081d') in 0.144181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/WorldComposer/Scripts/TerrainNeighbors.cs
+  artifactKey: Guid(28429c7d28adcf14a80a365546a9746a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/TerrainNeighbors.cs using Guid(28429c7d28adcf14a80a365546a9746a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec471a8e2846b07a7681a770fda2d817') in 0.023390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest1_DISP.png
+  artifactKey: Guid(cd20e0dea95c0fd4bae8a9ed4a89b211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest1_DISP.png using Guid(cd20e0dea95c0fd4bae8a9ed4a89b211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8a739f64713eaeca626778e4441a328') in 0.050084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Terrains/region1_1_TerrainLayer_0.asset
+  artifactKey: Guid(9af80d5d845f6c142bc5c571b34d6716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_1_TerrainLayer_0.asset using Guid(9af80d5d845f6c142bc5c571b34d6716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7bf2f840a459872e5ec5fe6922df9f0') in 0.039016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WorldComposer/Buttons/button_measure_tool.png
+  artifactKey: Guid(87532e3b6de0c3541a96d50c3b7927d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_measure_tool.png using Guid(87532e3b6de0c3541a96d50c3b7927d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a26475c41800664ee8bbc9d16dd83a07') in 0.056140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WorldComposer/Buttons/button_colormap.png
+  artifactKey: Guid(9da0caff9c4914248af40fa557017f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_colormap.png using Guid(9da0caff9c4914248af40fa557017f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecdf8d7734aad96759fdc75ae4c39aa5') in 0.748641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Grass_DISP.png
+  artifactKey: Guid(a1d2b32645eaed143bf2659edbd43cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Grass_DISP.png using Guid(a1d2b32645eaed143bf2659edbd43cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b87cae9e72fe9ced0551d126f2ac158e') in 0.162075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Grass_NRM.png
+  artifactKey: Guid(c745624ee3d9bc64692ea8e70e03eb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Grass_NRM.png using Guid(c745624ee3d9bc64692ea8e70e03eb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dc10881c5ad1c908a12ea5ac3072a82') in 0.099541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WorldComposer/Templates/Textures/grey.jpg
+  artifactKey: Guid(87b87aa33acc8f04bb10ec2418d72d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/grey.jpg using Guid(87b87aa33acc8f04bb10ec2418d72d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23513eaa25b974ae279dc2aad52a026c') in 0.099500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Rock1.psd
+  artifactKey: Guid(93dd2c4a1cab9ad4794684d8f595fa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Rock1.psd using Guid(93dd2c4a1cab9ad4794684d8f595fa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be40b79180cf4f9b24616569bd7eac92') in 0.103517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WorldComposer/Templates/Textures/GrassRock_NRM.png
+  artifactKey: Guid(438c504d2a820d041bded4939a7db3ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/GrassRock_NRM.png using Guid(438c504d2a820d041bded4939a7db3ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2cba28c914d2a4f85ae373190b37cc8') in 0.101144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/WorldComposer/Templates/Textures/ground_red.png
+  artifactKey: Guid(4e3dad62c1850eb4d833db6eaaf0a00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/ground_red.png using Guid(4e3dad62c1850eb4d833db6eaaf0a00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92310c834ceda3206d2619e080a5b59a') in 0.189132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WorldComposer/Templates/Textures/GrassRock_DISP.png
+  artifactKey: Guid(fb969b5c66ecd724387e412a429bb1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/GrassRock_DISP.png using Guid(fb969b5c66ecd724387e412a429bb1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b87b2f72a42053765a200f18b8efb2b5') in 0.324528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WorldComposer/Templates/Textures/ground_green.png
+  artifactKey: Guid(c8d3fe62d90a5c34b9c1ec742156ae50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/ground_green.png using Guid(c8d3fe62d90a5c34b9c1ec742156ae50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71d58a945c8e80101d46ea9cb56c2877') in 0.151443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/WorldComposer/Update/WorldComposer/last_checked.txt
+  artifactKey: Guid(97b8021122c517c4db00e74a392cc81c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Update/WorldComposer/last_checked.txt using Guid(97b8021122c517c4db00e74a392cc81c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85cc69ebe1aaf442a4c15e41457f38ee') in 0.047795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WorldComposer/Update/WorldComposer/version.txt
+  artifactKey: Guid(930d9299a1ac47a42b78dca4f244698b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Update/WorldComposer/version.txt using Guid(930d9299a1ac47a42b78dca4f244698b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73bb66825cb9621dcf9a2ed6eec42136') in 0.067592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/WorldComposer/Templates/Textures/ground_blue.png
+  artifactKey: Guid(253904a421c67b542a5ee83cafe2ecdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/ground_blue.png using Guid(253904a421c67b542a5ee83cafe2ecdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a0ccbed5138fdf9c63281b221042481') in 0.089274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Grass.psd
+  artifactKey: Guid(61ebeeea7f1d02c45a47ae949bf27971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Grass.psd using Guid(61ebeeea7f1d02c45a47ae949bf27971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a6f4c3c477988f954502985dad746b') in 0.109272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Rock1_DISP.png
+  artifactKey: Guid(ef8a70f9e372e0c4bb3d9ec8f04ddc7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Rock1_DISP.png using Guid(ef8a70f9e372e0c4bb3d9ec8f04ddc7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a9fc6a2052169b5b11b150671483b27') in 0.116054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WorldComposer/Templates/Textures/GrassRock.psd
+  artifactKey: Guid(462e7b0a860ff5a4eb8fbebad55cec64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/GrassRock.psd using Guid(462e7b0a860ff5a4eb8fbebad55cec64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78799327e4f2aee762390d76fd84a9f2') in 0.188657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WorldComposer/Update/WorldComposer/check.txt
+  artifactKey: Guid(a836791ec9e306040a5a1ebbb19e4e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Update/WorldComposer/check.txt using Guid(a836791ec9e306040a5a1ebbb19e4e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fcd5ee0c2c9e7ff0dceac5225f472c4') in 0.282934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Terrains/region1_x1_y0.asset
+  artifactKey: Guid(6bb1a5af132e37f4596fe2304232f713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_x1_y0.asset using Guid(6bb1a5af132e37f4596fe2304232f713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44dcb8ce4c3f8d1e0b56abcdcc8e645c') in 0.078929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_right_top.png
+  artifactKey: Guid(908442bbd471c544e81671237827b53d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_right_top.png using Guid(908442bbd471c544e81671237827b53d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4f33fce40754e13e2821f1c8cf6e352') in 0.093840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WorldComposer/Buttons/button_resolution.png
+  artifactKey: Guid(4cfe6f44be2c1d340bdb93ace08e80e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_resolution.png using Guid(4cfe6f44be2c1d340bdb93ace08e80e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd39d4d25d5ac56549b85b8808bef78f') in 0.171514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/WorldComposer/Buttons/curve_help.png
+  artifactKey: Guid(02b57a83b220ac448ab0079fb4c38184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/curve_help.png using Guid(02b57a83b220ac448ab0079fb4c38184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c09c9d64a3b4ebe97b75f7acc1dd36ea') in 0.414082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CFD Suffield - 1 _x4_y1.jpg
+  artifactKey: Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x4_y1.jpg using Guid(855b728d2ce19c7458616dc0bf553cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6af3dfee67657372692036e8dc64387') in 0.076940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WorldComposer/Buttons/button_map.png
+  artifactKey: Guid(abf6b42131e1fa340948a7e58ee676a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_map.png using Guid(abf6b42131e1fa340948a7e58ee676a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '893cc5c41544a3dd54d317da230fbe44') in 0.080308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/WorldComposer/Scripts/MultiTerrainBoost.cs
+  artifactKey: Guid(cab064af4e2b3d8499c1f09e02538f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/MultiTerrainBoost.cs using Guid(cab064af4e2b3d8499c1f09e02538f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb59d75ec8236e0892e092099546f5f6') in 0.044980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CFD Suffield - 1 _x1_y1.jpg
+  artifactKey: Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x1_y1.jpg using Guid(a0508a0253f7dcd40884e5aa811cb708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b89c571f4378fbbbbd3f50fd6f8b0643') in 0.096853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WorldComposer/Editor/Info_tc.cs
+  artifactKey: Guid(a937249ec49391a4ba4202964ce4d14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Editor/Info_tc.cs using Guid(a937249ec49391a4ba4202964ce4d14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aded01ba4b740066adfd06e98eb9f382') in 0.051600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest3_NRM.png
+  artifactKey: Guid(7fc92f5f1c1ed1e4cbb644fdc6962715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest3_NRM.png using Guid(7fc92f5f1c1ed1e4cbb644fdc6962715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c1353f492b42ce712f4c37050fbede8') in 0.086350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WorldComposer/Templates/content4.dat
+  artifactKey: Guid(eeb39ce9941d9eb4ea89e3140a8d5aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/content4.dat using Guid(eeb39ce9941d9eb4ea89e3140a8d5aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36bfeca1b16d8c17a0e28e7316eb3609') in 0.057854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/WorldComposer/Buttons/button_meshcapture_tool.png
+  artifactKey: Guid(afaa2fce4f3db18489e0082e2bd7bcbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_meshcapture_tool.png using Guid(afaa2fce4f3db18489e0082e2bd7bcbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e287d0f5dcdd8630a8ba0c3f374ff14c') in 0.113862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CFD Suffield - 1 _x4_y0.jpg
+  artifactKey: Guid(9eb5efdf835749d44b6456c3268dad33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x4_y0.jpg using Guid(9eb5efdf835749d44b6456c3268dad33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58e732114e4ba654d1e2e1ba5f68ca7e') in 0.132526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x4_y0.asset
+  artifactKey: Guid(42a27a77f0dfc5b47804872efc1626ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x4_y0.asset using Guid(42a27a77f0dfc5b47804872efc1626ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b863fe7b811ac567bdb3a52f31dd1df0') in 0.049574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x4_y2.asset
+  artifactKey: Guid(dd1f6f8cbb4c73e4c968fc197312c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x4_y2.asset using Guid(dd1f6f8cbb4c73e4c968fc197312c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec5ee06f23fbbdf9417c942812fd9ba7') in 0.050528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CFD Suffield - 1 _x3_y1.jpg
+  artifactKey: Guid(e759625ae597b4d468a43b91d2966b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x3_y1.jpg using Guid(e759625ae597b4d468a43b91d2966b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92ebfdc7b298d2fb530d4a8e733a209d') in 0.066974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x0_y1.asset
+  artifactKey: Guid(598f3e4146234f3418d54fd97b8fa4a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x0_y1.asset using Guid(598f3e4146234f3418d54fd97b8fa4a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '709d2f517a735ba0a70779322c452f53') in 0.061105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/CFD Suffield - 1 _x2_y2.jpg
+  artifactKey: Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x2_y2.jpg using Guid(74a66b7810d782947afb9f6056b3a2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8e7ec160c9acfc0e29bfffa08671bfb') in 0.080803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/WorldComposer/Buttons/button_smooth.png
+  artifactKey: Guid(2b082ae4f8abb294ea9cedc0cca90220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_smooth.png using Guid(2b082ae4f8abb294ea9cedc0cca90220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa647f8379dd80130b2aef71b2f96d48') in 0.105446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
   path: Assets/CFD Suffield - 1 _x4_y2.jpg
-  artifactKey: Guid(5d7fbe43d06a003488583b230082f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CFD Suffield - 1 _x4_y2.jpg using Guid(5d7fbe43d06a003488583b230082f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db067b18d7a1d6d1aa1aeca88ce9ce47') in 0.037204 seconds 
+  artifactKey: Guid(5d7fbe43d06a003488583b230082f805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x4_y2.jpg using Guid(5d7fbe43d06a003488583b230082f805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6dcec668178d7b85c35433ef035cf7c') in 0.080856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Dirt_NRM.png
+  artifactKey: Guid(e8c412c12c7ddc84299ec45714009f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Dirt_NRM.png using Guid(e8c412c12c7ddc84299ec45714009f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '413b5729d18f3ea382fe55b166cc773f') in 0.098701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest2.psd
+  artifactKey: Guid(808463902efbf2443ab506fbd7987a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest2.psd using Guid(808463902efbf2443ab506fbd7987a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '325569bc00df1f29bbcc1ffc203df0b8') in 0.087206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WorldComposer/WorldComposer.pdf
+  artifactKey: Guid(5731cdefc76cf01478e56fff84d2632c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/WorldComposer.pdf using Guid(5731cdefc76cf01478e56fff84d2632c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1064694b0fd6ae2f9fc3f25cf4f0963e') in 0.048775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _9_TerrainLayer_0.asset
+  artifactKey: Guid(ddf47d8abb9347a47b801247f311f6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _9_TerrainLayer_0.asset using Guid(ddf47d8abb9347a47b801247f311f6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e5e8849c4f0929ab1a729b36e2c59e8') in 0.075766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WorldComposer/Buttons/button_discord.png
+  artifactKey: Guid(92981410fe0038945bfcc523b88f3eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_discord.png using Guid(92981410fe0038945bfcc523b88f3eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2685bfdb4231a973cb4deaadacc7f05f') in 0.099972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WorldComposer/Buttons/button_help.png
+  artifactKey: Guid(1c63e4fbde04d7347ad8f39969367bb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_help.png using Guid(1c63e4fbde04d7347ad8f39969367bb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd875cac5f2e2787d6fe12c5494beee57') in 0.094652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _1_TerrainLayer_0.asset
+  artifactKey: Guid(1debcfcb651f93942aa76e3e1edc91c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _1_TerrainLayer_0.asset using Guid(1debcfcb651f93942aa76e3e1edc91c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c68d5923740aecf8f4d9947c1a0c75a') in 0.077444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x1_y0.asset
+  artifactKey: Guid(d9d8519ba4e13804580b0b214c0bd5bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x1_y0.asset using Guid(d9d8519ba4e13804580b0b214c0bd5bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b097466a1f6120931d03b7a6e7bcbed') in 0.049871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WorldComposer/Templates/Drawing_tc.shader
+  artifactKey: Guid(21c5cfddf5ec6e04f8337c98cf59915c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Drawing_tc.shader using Guid(21c5cfddf5ec6e04f8337c98cf59915c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05250496459e684343183b28077b54b2') in 0.052694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x0_y2.asset
+  artifactKey: Guid(9fb2403a41fc3ec4da710fb59a140974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x0_y2.asset using Guid(9fb2403a41fc3ec4da710fb59a140974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12c2c5730e5cc9178ad31c6a6f9ed2aa') in 0.041766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WorldComposer/Buttons/SliderLeft.psd
+  artifactKey: Guid(e95e010e57eb3be46818a4ddda60f44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderLeft.psd using Guid(e95e010e57eb3be46818a4ddda60f44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c215c30b1ab40b68a40fb8704057278b') in 0.278227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest3_DISP.png
+  artifactKey: Guid(6974e3814412352428d5c432ab3f0a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest3_DISP.png using Guid(6974e3814412352428d5c432ab3f0a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '490a766a691bedcb263435e97073d6db') in 0.079461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/WorldComposer/Buttons/button_sun.png
+  artifactKey: Guid(25aaa8867c4788d4b8e2556360f49567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_sun.png using Guid(25aaa8867c4788d4b8e2556360f49567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2d9346baae188a90e76f05ba72fa590') in 0.103825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WorldComposer/Scripts/LatLong_Conversion.cs
+  artifactKey: Guid(ee1ca5c1ef3c5d94faf1fd68a1093f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/LatLong_Conversion.cs using Guid(ee1ca5c1ef3c5d94faf1fd68a1093f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c007f7dc89e0b4a597947505ad30e0b') in 0.070481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/CFD Suffield - 1 _x2_y1.jpg
+  artifactKey: Guid(914e910ebb7714b419221a21b358bfc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x2_y1.jpg using Guid(914e910ebb7714b419221a21b358bfc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '889af71e848305799fade3c027c09934') in 0.185205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WorldComposer/Buttons/button_update.png
+  artifactKey: Guid(df9d8aeba9fe17048bee16462777dc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_update.png using Guid(df9d8aeba9fe17048bee16462777dc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '186024c03b017efe1035f5727e4f0e4c') in 0.299883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _x3_y2.asset
+  artifactKey: Guid(6c76c03810ec839499788b1429b71bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _x3_y2.asset using Guid(6c76c03810ec839499788b1429b71bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a03ca8b9aaef28ad2325c4915853337') in 0.050742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _13_TerrainLayer_0.asset
+  artifactKey: Guid(e2f51cad0fb777843bf731b229a494ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _13_TerrainLayer_0.asset using Guid(e2f51cad0fb777843bf731b229a494ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdb3cbf5918ebf681fb7ac0f7a1e77ef') in 0.041352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WorldComposer/Buttons/SliderBaseRight.psd
+  artifactKey: Guid(d6e21c3a1c15bba41aedce11926a8d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderBaseRight.psd using Guid(d6e21c3a1c15bba41aedce11926a8d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8bedb0b34185ac87353237de470b5ca') in 0.091059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WorldComposer/Buttons/button_tools.png
+  artifactKey: Guid(756e2c78c1eb4bc4ba63b460a53d4e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_tools.png using Guid(756e2c78c1eb4bc4ba63b460a53d4e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '530186b1540300ebd69de09daaddb295') in 0.080519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _2_TerrainLayer_0.asset
+  artifactKey: Guid(3ffc189f4b5d2ad41ae58fccabf255f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _2_TerrainLayer_0.asset using Guid(3ffc189f4b5d2ad41ae58fccabf255f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ac3c9cb21cb55c8e345e15b06fe24dd') in 0.038554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Terrains/CFD Suffield - 1 _6_TerrainLayer_0.asset
+  artifactKey: Guid(d4bc7f9c1e8b71c48b203e9b797e0367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/CFD Suffield - 1 _6_TerrainLayer_0.asset using Guid(d4bc7f9c1e8b71c48b203e9b797e0367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f052a7d6af3dfbaf1dd0c248f29d25e1') in 0.046558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/WorldComposer/Buttons/arrow_bottom.png
+  artifactKey: Guid(0e37dff1f89382d489d5fa95dd1e4c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/arrow_bottom.png using Guid(0e37dff1f89382d489d5fa95dd1e4c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31c4a220ea139a2f47b6d743852d23c2') in 0.204468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/WorldComposer/Editor/Map_tc.cs
+  artifactKey: Guid(736e8ef583764604e8b8c1d5b610e9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Editor/Map_tc.cs using Guid(736e8ef583764604e8b8c1d5b610e9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9c354e5e6be007cd5dc2d0f65e438a3') in 0.055702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Forest2_DISP.png
+  artifactKey: Guid(944d60a5b4d2f2849b3598dd390888d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Forest2_DISP.png using Guid(944d60a5b4d2f2849b3598dd390888d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37fa77ef6c753e09237c5c7f738dab63') in 0.086860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrains/region1_2_TerrainLayer_0.asset
+  artifactKey: Guid(1d413e733f391fe4e98d60e73acab2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_2_TerrainLayer_0.asset using Guid(1d413e733f391fe4e98d60e73acab2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c83ff392e5920149ffb7b66bcedebb35') in 0.061014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Terrains/region1_x0_y1.asset
+  artifactKey: Guid(af41dec5d75a20a4487f1a01c55dbb4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrains/region1_x0_y1.asset using Guid(af41dec5d75a20a4487f1a01c55dbb4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b02df10c41d478290031a53ba63e754') in 0.051229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WorldComposer/Buttons/button_settings.png
+  artifactKey: Guid(51267bdca55f4694ca82336d37a16c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_settings.png using Guid(51267bdca55f4694ca82336d37a16c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d3091b514492c40e79ad1346ca7a508') in 0.080552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/WorldComposer/Buttons/button_stitch.png
+  artifactKey: Guid(f0255ff57ddb09543a35b14e9961c1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_stitch.png using Guid(f0255ff57ddb09543a35b14e9961c1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b777f4b49461e3d9ed275564f3924456') in 0.073837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WorldComposer/Scripts/Drawing_tc1.cs
+  artifactKey: Guid(001ef2b68c18f8e4aa609a5b3378b4cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/Drawing_tc1.cs using Guid(001ef2b68c18f8e4aa609a5b3378b4cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ba2cbd4f812604cd03efb912b76eedb') in 0.040916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/WorldComposer/Buttons/button_edit.png
+  artifactKey: Guid(7bc41d2d22740c6439170ec0b659b57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_edit.png using Guid(7bc41d2d22740c6439170ec0b659b57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '110d4521e677d75d7517892018df2641') in 0.219463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WorldComposer/Buttons/button_splatmap.png
+  artifactKey: Guid(0f49d474b8f76cd4eabc7c6b6abcf465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_splatmap.png using Guid(0f49d474b8f76cd4eabc7c6b6abcf465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f814449a68ddd4abd75a5789a6e0504') in 0.071834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WorldComposer/Buttons/button_objects.png
+  artifactKey: Guid(e07ce49c5c8d80f4489193209c1962c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/button_objects.png using Guid(e07ce49c5c8d80f4489193209c1962c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '932aa66f7dac82de41f6a48100ce3a21') in 0.083652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/WorldComposer/Buttons/SliderBaseMiddle.psd
+  artifactKey: Guid(47ecc4c908b38134c92e3a7e7028f107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderBaseMiddle.psd using Guid(47ecc4c908b38134c92e3a7e7028f107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb72d6b0191ffb6bb74c02ec3c426bc') in 0.086258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WorldComposer/Buttons/SliderRight.psd
+  artifactKey: Guid(9612af82f500c724abd632ae26efed22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderRight.psd using Guid(9612af82f500c724abd632ae26efed22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb35e46c37cf19366e583644ea533156') in 0.086447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WorldComposer/Scripts/TerrainDetail.cs
+  artifactKey: Guid(ffe66d9823dc8c744b55f059cfec2a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Scripts/TerrainDetail.cs using Guid(ffe66d9823dc8c744b55f059cfec2a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14830b0e45497bb429efb4b2aa627e34') in 0.060921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CFD Suffield - 1 _x1_y0.jpg
+  artifactKey: Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CFD Suffield - 1 _x1_y0.jpg using Guid(27e5238128469ff4b908b542cb2ae5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bfed8015b91f0e603d3ff7cf75768c1') in 0.066038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WorldComposer/Templates/Textures/Rock1_NRM.png
+  artifactKey: Guid(dadabd1b3c70523468b392d53de52cec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Templates/Textures/Rock1_NRM.png using Guid(dadabd1b3c70523468b392d53de52cec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1fe3bfd3e757daf3c9319305ffcb7b6') in 0.084941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WorldComposer/Buttons/SliderMiddle.psd
+  artifactKey: Guid(9ff512c849520fc4a920ca69ed43f775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WorldComposer/Buttons/SliderMiddle.psd using Guid(9ff512c849520fc4a920ca69ed43f775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73692a831d36bdb81072320a8208587d') in 0.094546 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (77.2 KB). Loaded Objects now: 3863.
+Memory consumption went from 61.4 MB to 61.3 MB.
+Total: 7.624900 ms (FindLiveObjects: 0.383200 ms CreateObjectMapping: 0.191000 ms MarkObjects: 6.920300 ms  DeleteObjects: 0.128900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.073936 seconds.
+  path: Assets/AirShare INLS-4 System (Loaded).obj
+  artifactKey: Guid(0e917cde6e6d8ac47bf8eb5b676470bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AirShare INLS-4 System (Loaded).obj using Guid(0e917cde6e6d8ac47bf8eb5b676470bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9d922e33a7e2580cff22148ddd755') in 2.445755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AirShare INLS-4 System (Loaded).obj
+  artifactKey: Guid(0e917cde6e6d8ac47bf8eb5b676470bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AirShare INLS-4 System (Loaded).obj using Guid(0e917cde6e6d8ac47bf8eb5b676470bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46e5af7239cd0f49a4d3ba9f99c015aa') in 1.889680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 791.799276 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.032095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.891305 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(78a4a6105bbea034fada43a52d590bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(78a4a6105bbea034fada43a52d590bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64aad055442a076c8ac523d0107324f') in 0.015743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.935568 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(78a4a6105bbea034fada43a52d590bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab using Guid(78a4a6105bbea034fada43a52d590bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52711db6ba099278c6f413c3ab9c5c96') in 0.671847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.783568 seconds.
+  path: Assets/Prefab/Drone.prefab
+  artifactKey: Guid(3559476aade54fe4d804f4f2678bcf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Drone.prefab using Guid(3559476aade54fe4d804f4f2678bcf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0902e5bb39ae569387a562116692ff5f') in 0.049068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.927691 seconds.
+  path: Assets/Prefab/Drone.prefab
+  artifactKey: Guid(3559476aade54fe4d804f4f2678bcf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Drone.prefab using Guid(3559476aade54fe4d804f4f2678bcf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be06d9caf1cdf1e284be88672332adbc') in 0.350807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.819057 seconds.
+  path: Assets/Prefab/drone.fbx
+  artifactKey: Guid(40d3a35213a78e444a6f1c435329de7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/drone.fbx using Guid(40d3a35213a78e444a6f1c435329de7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629b203c6e053dca970836657de6cc3a') in 0.238947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.761147 seconds.
+  path: Assets/Prefab/drone.fbx
+  artifactKey: Guid(40d3a35213a78e444a6f1c435329de7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/drone.fbx using Guid(40d3a35213a78e444a6f1c435329de7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40878b27ea545140b70b0e2d73a7719a') in 0.162550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.361101 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a4d63bbdf48d6e74d9304d61b4636fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a4d63bbdf48d6e74d9304d61b4636fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd8bbf837fa59931ebd9cd65706d31') in 0.018440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.946240 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a4d63bbdf48d6e74d9304d61b4636fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts using Guid(a4d63bbdf48d6e74d9304d61b4636fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b00d564cdfd9934a60143aa918bdca1b') in 0.048909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3056.855894 seconds.
+  path: Assets/Scripts/DroneController.cs
+  artifactKey: Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneController.cs using Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a036ab75e65a12057f2b696633f4bb') in 0.028578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.573461 seconds.
+  path: Assets/Scripts/DroneController.cs
+  artifactKey: Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DroneController.cs using Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4a00c376fc48a3f79b18b79cf713cc1') in 0.055953 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2095ms)
+		BeginReloadAssembly (483ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (1443ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.1 KB). Loaded Objects now: 3911.
+Memory consumption went from 134.6 MB to 134.6 MB.
+Total: 7.036400 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.196800 ms MarkObjects: 6.262200 ms  DeleteObjects: 0.174400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.728019 seconds.
+  path: Assets/Scripts/DroneController.cs
+  artifactKey: Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneController.cs using Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92029d6edea0630643d2ac340a5d2795') in 0.034677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.256610 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65eb0f69014209cffd1d1dbda802329') in 0.040916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.679411 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c86b00e2b4b630ef64119dc0001666') in 0.019483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115423 seconds.
+  path: Assets/Scripts/DroneController.cs
+  artifactKey: Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneController.cs using Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e288169250e738d4fe8ce50d347ed3') in 0.018312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.220939 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb9357c8c311cf6278f211bee52ee3a') in 0.079749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.172878 seconds.
+  path: Assets/Scripts/CircuitStrategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircuitStrategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1842ac99be7661a8acd096094ead580') in 0.016023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.095478 seconds.
+  path: Assets/Scripts/CircuitStrategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircuitStrategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574a52dbc22acff364e88fa7d0c4afc5') in 0.051842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.784269 seconds.
+  path: Assets/Scripts/CircleStrategy.cs
+  artifactKey: Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircleStrategy.cs using Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff1b132df34d801c7a0422a36a59310') in 0.016710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.199099 seconds.
+  path: Assets/Scripts/CircleStrategy.cs
+  artifactKey: Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircleStrategy.cs using Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d6b9a430ea1a57d89e2201d3760cee') in 0.021924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 418.468459 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f8201d33a18a849ea20864a0cb498a') in 0.093985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 786.268843 seconds.
+  path: Assets/Scripts/CircleStrategy.cs
+  artifactKey: Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircleStrategy.cs using Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a65c74c631cefc5258d43f55acc403') in 0.009397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 636.104884 seconds.
+  path: Assets/Scripts/Drone.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Drone.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc1e672b90b6c55821b9d1dc1035a0') in 0.008428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.614849 seconds.
+  path: Assets/Scripts/Drone.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Drone.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd73e968939fde80a5bd275b31623dc') in 0.018194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.055013 seconds.
+  path: Assets/Scripts/Drone.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Drone.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c2d0256b1ede1b02dd97ec8af416d3') in 0.022096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.581973 seconds.
+  path: Assets/Scripts/Strategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Strategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53993857bb15f06139dd4560ad93cc20') in 0.017908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.642859 seconds.
+  path: Assets/Scripts/Strategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Strategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b324369830ec90d4e52faa04aa1a4c84') in 0.014668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3672.153808 seconds.
+  path: Assets/Scripts/Drone.cs
+  artifactKey: Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Drone.cs using Guid(e31c2c3b08b4522469996ae6c637c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c570b06c44040b35ca6b236ac605af') in 0.004706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.797572 seconds.
+  path: Assets/Scripts/DroneStrategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneStrategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be90fcfbb9bc36f29be9f166df344171') in 0.027279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.908745 seconds.
+  path: Assets/Scripts/DroneStrategy.cs
+  artifactKey: Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneStrategy.cs using Guid(b64b6dd794888604fb76f3f1101d0d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1477f451f48dda9d3d04281db924d350') in 0.017622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1814.245849 seconds.
+  path: Assets/Scripts/DroneController.cs
+  artifactKey: Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneController.cs using Guid(1b2d34f8c1f43084891356b93bd3cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e1d911d3a6d19bd0c6fae3dbdcc496') in 0.018262 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2600ms)
+		BeginReloadAssembly (613ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		EndReloadAssembly (1706ms)
+			LoadAssemblies (336ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (679ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (80.2 KB). Loaded Objects now: 3913.
+Memory consumption went from 134.6 MB to 134.5 MB.
+Total: 5.586300 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.285200 ms MarkObjects: 4.687600 ms  DeleteObjects: 0.231700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010017 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1670ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3916.
+Memory consumption went from 134.6 MB to 134.5 MB.
+Total: 5.258000 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.160800 ms MarkObjects: 4.625200 ms  DeleteObjects: 0.128700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.389434 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80cbcb5f068ce1cf50f880dea125bdb') in 0.022007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013555 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PrabhaJ\Desktop\Unity Github\Airshare-Unity-Project\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1739ms)
+		BeginReloadAssembly (393ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3920.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 7.198000 ms (FindLiveObjects: 0.581700 ms CreateObjectMapping: 0.210900 ms MarkObjects: 6.226700 ms  DeleteObjects: 0.176400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.169076 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57e56b120c9c5c519ab4807ac2542f6') in 0.018381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6919.956451 seconds.
+  path: Assets/Scripts/CircleStrategy.cs
+  artifactKey: Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircleStrategy.cs using Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1681dacb6a3f4204844bda7b20e4560b') in 0.027888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.326354 seconds.
+  path: Assets/Scripts/DroneManager.cs
+  artifactKey: Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DroneManager.cs using Guid(e3786d8436d06e145aa31e90ec8272d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a5993322417f368ab8754cf3f30b1') in 0.004774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.613034 seconds.
+  path: Assets/Scripts/CircleStrategy.cs
+  artifactKey: Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CircleStrategy.cs using Guid(ad69d751142faf8479b94b3143a95572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0443cab10f18a2f80f2be666534271c4') in 0.003315 seconds 
